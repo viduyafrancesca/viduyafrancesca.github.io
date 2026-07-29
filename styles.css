@@ -81,6 +81,11 @@ button:focus-visible {
   font-weight: 600;
 }
 
+.about__bio {
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   body {
     display: flex;
