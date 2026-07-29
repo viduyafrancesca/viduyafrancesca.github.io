@@ -115,3 +115,38 @@ button:focus-visible {
     min-width: 0;
   }
 }
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.project-card h3 {
+  color: var(--color-text);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card__stack {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-card__links a {
+  font-weight: 600;
+}
