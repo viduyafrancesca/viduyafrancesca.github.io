@@ -102,13 +102,18 @@ button:focus-visible {
 
 .sidebar__contact {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-top: 1.5rem;
+  margin-left: -0.4rem;
 }
 
 .sidebar__contact a {
   color: var(--color-muted);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
   transition: color 150ms ease;
 }
 
