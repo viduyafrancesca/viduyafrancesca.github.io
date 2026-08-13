@@ -9,6 +9,17 @@
   --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #f7f1e6;
+    --color-text: #2a2119;
+    --color-accent: #8a4812;
+    --color-surface: #efe4d3;
+    --color-border: #ddcfb8;
+    --color-muted: #6e6154;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
