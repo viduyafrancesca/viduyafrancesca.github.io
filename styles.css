@@ -6,6 +6,7 @@
   --color-border: #3d372f;
   --color-muted: #b8ada0;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
 }
 
 * {
@@ -79,6 +80,18 @@ button:focus-visible {
 .sidebar__nav a {
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.sidebar__nav-num,
+.section__num {
+  font-family: var(--font-mono);
+  color: var(--color-muted);
+  margin-right: 0.5em;
+}
+
+.section h2 {
+  display: flex;
+  align-items: baseline;
 }
 
 .about__bio {
