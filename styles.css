@@ -283,3 +283,38 @@ button:focus-visible {
   color: var(--color-muted);
   font-size: 0.9rem;
 }
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #1c1a17;
+  --color-text: #e9e3da;
+  --color-accent: #e8a15c;
+  --color-surface: #2a2621;
+  --color-border: #3d372f;
+  --color-muted: #b8ada0;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f7f1e6;
+  --color-text: #2a2119;
+  --color-accent: #8a4812;
+  --color-surface: #efe4d3;
+  --color-border: #ddcfb8;
+  --color-muted: #6e6154;
+}
