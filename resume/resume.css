@@ -110,9 +110,3 @@ section h2 {
   font-style: italic;
 }
 
-.cert-line {
-  font-size: 9pt;
-  margin-bottom: 1px;
-  display: flex;
-  justify-content: space-between;
-}
