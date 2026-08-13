@@ -192,3 +192,34 @@ button:focus-visible {
   font-weight: 600;
   font-size: 1rem;
 }
+
+.timeline {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.timeline__entry {
+  border-left: 2px solid var(--color-border);
+  padding-left: 1rem;
+}
+
+.timeline__role {
+  color: var(--color-text);
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+}
+
+.timeline__meta {
+  font-family: var(--font-mono);
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline__desc {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
